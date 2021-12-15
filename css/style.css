@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@300;400&display=swap');
+
+body {
+    height: 100%;
+    /* background-image: url("../images/background.png"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-background {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    background-image: url('../images/background.png');
+    background-size: cover;
+}
+
+.navbar .navbar-nav {
+    margin-left: auto;
+}
+
+.navbar .nav-item a {
+    color: #fff !important;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.7em;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+}
+
+.konten {
+    margin-top: 20px;
+}
+
+.konten h1 {
+    text-align: center;
+    font-size: 9em;
+    font-family: 'Permanent Marker', cursive;
+    color: #ae3c22;
+}
+
+.konten h3 {
+    text-align: center;
+    color: #752B01;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+.konten p {
+    text-align: center;
+    color: #752B01;
+    font-weight: 500;
+}
+.nav-item {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tombolku {
+    border-radius: 0px;
+    transition: .3s !important;
+}
+
+.tombolku:hover {
+    background-color: #ae3c22 !important;
+    color: #202020 !important;
+    border-radius: 15px;
+}

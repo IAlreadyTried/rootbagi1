@@ -1,0 +1,89 @@
+.collapsible {
+  transition: .3s;
+    background-color: #FFC880;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    /* width: 100%; */
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .activeYa, .collapsible:hover {
+    background-color: #FFC880;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    transition: .3s;
+    height: 250px;
+    overflow-y: scroll;
+  }
+
+  #wow1 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: .3s;
+    width: 400px;
+    z-index: 1000000000;
+  }
+  .keranjang {
+    width: 40px;
+    float: left;
+  }
+  #panah {
+    width: 25px;
+    float: right;
+    position: relative;
+    top: -27px;
+    transition: .2s;
+    transform:rotate(0deg);
+  }
+  .nama-makanan {
+    float: right;
+  }
+  .daftar {
+    margin-left: 100px;
+    margin-top: 5px;
+  }
+  .makanan {
+    width: 60px;
+    border: 1px solid black;
+    /* float: left; */
+  }
+  .content li {
+    padding: 10px;
+    margin-left: -20px;
+    position: relative;
+  }
+  .content li span {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+  .tombol {
+    background-color: none;
+    border: none;
+  }
+  .banyak {
+    margin-top: 15px;
+  }
+  .nama-makanannya {
+    text-align: center;
+    position: absolute;
+    top: 17px;
+    left: 90px;
+  }
+  .nama-makanannya2 {
+    text-align: center;
+    position: absolute;
+    top: 37px;
+    left: 90px;
+  }
+  

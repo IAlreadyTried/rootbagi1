@@ -1,0 +1,137 @@
+.bungkus-gambar {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    padding: 0px;
+    height: 100%;
+    line-height: 100%;
+    overflow: hidden;
+}
+.gambar {
+    width: 330px;
+    margin-top: 20px;
+    z-index: 2;
+    transform-origin: 168px 166px;
+    animation-name: putar;
+    animation-duration: 1.5s;
+    animation-delay: 0.02s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes putar {
+    from    {
+                transform: rotate(0deg);
+            }
+    to      {transform: rotate(-360deg);}
+}
+
+.satu {
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    top: 27px;
+    left: 170px;
+    font-size: 33px;
+    font-weight: bolder;
+    color: #964616;
+}
+.rasa {
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    top: 27px;
+    left: 263px;
+    font-size: 33px;
+    font-weight: bolder;
+    color: #fef3e0;
+}
+
+.garis {
+    position: absolute;
+    top: 65px;
+    width: 220px;
+}
+
+.gelombang {
+    position: absolute;
+    top: 382.8px;
+    left: 0px;
+    width: 553px;
+}
+.barcode {
+    position: absolute;
+    width: 50px;
+    bottom: 53px ;
+    left: 10px;
+}
+
+.bintang {
+    position: absolute;
+    top: 153px;
+    left: 147px;
+    width: 146px;
+    z-index: 1;
+    animation-name: bintangku;
+    animation-delay: .9s;
+    animation-duration: .7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bintangku {
+    from    {
+        top:153px;
+        left: 147px;
+    }
+    to      {
+        top: 100px;
+        left: 53px;
+    }
+}
+
+.bayangan {
+    position: absolute;
+    top: 133px;
+    left: 89px;
+    width: 330px;
+    height: 327px;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+}
+.overlay {
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 514px;
+    height: 560px;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 3;
+}
+.pesawat {
+    position: relative;
+    top: 33px;
+    left: -8px;
+    width: 140px;
+}
+.garis2 {
+    position:absolute;
+    top: 220px;
+    left: 28px;
+}
+.garis2 hr {
+    width: 350px;
+    border-top: 3px dashed black;
+    opacity: 1;
+    background-color: white;
+}
+
+.garis2::after {
+    content: "|";
+    font-weight: bold;
+    position: absolute;
+    left: -4px;
+    top: 2px;
+}
+.garis2::before {
+    content: "|";
+    font-weight: bold;
+    position: absolute;
+    left: 348px;
+    top: 2px;
+}

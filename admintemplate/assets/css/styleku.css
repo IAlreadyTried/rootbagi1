@@ -1,0 +1,82 @@
+body {
+    background-color: #ffefaf;
+}
+
+/* Warnna Background Grafik */
+#chart-profile-visit {
+    background-color:	 rgb(247, 192, 121) ;
+}
+
+/* Warna Card-cardnya */
+.card {
+    background-color: 	#fff7d6;
+}
+
+/* Kepala setiap card */
+.card-header {
+    background-color: 	rgb(226, 152, 83);
+}
+
+/* Tulisan kepala setiap card */
+h4 {
+    color: white;
+}
+
+/* Ini sidebar */
+.sidebar-wrapper {
+    background-color: rgb(247, 192, 121);
+}
+
+.card-chart {
+    background-color: rgb(207, 144, 85);
+}
+
+.logo a img {
+    width: 50px;
+    height: 50px !important;
+}
+.tabelku {
+    border: 2px solid black !important;
+    /* margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px; */
+    border-end-end-radius: 50px;
+    text-align: center;
+}
+.tr {
+    border: 2px solid black !important;
+
+}
+.td {
+    border: 2px solid black !important;
+}
+.kartu-tabel {
+    padding: 0px !important;
+   
+} 
+.tomboltabel {
+    padding: 4px;
+    border-radius: 3px;
+    background-color: rgb(243, 60, 60);
+}
+.tomboltabel:nth-child(1) {
+    background-color: rgb(35, 201, 35);
+}
+
+.tomboltabel a {
+    color:rgb(255, 255, 255);
+}
+.card-header-tabel {
+    border-radius: 0px !important;
+    height: 50px !important;
+    border-top: 2px solid black !important;
+    border-left: 2px solid black !important;
+    border-right: 2px solid black !important;
+}
+.card-header-tabel h4 {
+    margin-top: -10px !important;
+}
+.card-awal {
+    font-size: smaller;
+}

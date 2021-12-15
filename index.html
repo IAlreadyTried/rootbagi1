@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/mediaadaptation.css">
+
+    <style>
+        @media (min-width: 1px) and (max-width: 450px) { 
+    .konten h1 {
+        font-size: 4em;
+    }   
+    .konten h3 {
+        font-size: .7rem;
+    }
+    .konten p {
+        font-size: .7rem;
+    }
+    .tombolku {
+        font-size: .8rem;
+    }
+    .navbar .nav-item a {
+        font-size: .7rem !important;
+    }
+}
+    </style>
+</head>
+
+<body>
+
+    <div class="container-background container-fluid">awfaw</div>
+    <!-- INI NAVBAR -->
+
+    <div class="mynav">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #582102;">
+            <div class="container-fluid">
+                <img src="./images/logo1.png" width="50px" alt="logo">
+                <a class="navbar-brand">SATU RASA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MENU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAVORIT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">KONTAK</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- INI KONTEN -->
+     <div class="konten">
+        <h1 style="transition: .5s;">SATU RASA</h1>
+        <h3>GOOD TASTE, GOOD PRICE</h3>
+         <p>Restoran Satu Rasa didirikan oleh 6 pengusaha muda pada tahun 2021.Kini, Satu Rasa telah<br>memiliki 3 cabang restoran di kota Medan. Oleh karena tingginya rasa antusias konsumen, Satu Rasa berinisiatif<br>untuk meningkatkan pelayanan transaksi agar pelanggan tidak <br>perlu berlama-lama mengantri melalui website ini. Selamat menggunakan!</p>
+    </div>
+
+     <!-- INI BUTTON -->
+
+    <div class="d-flex justify-content-center">
+        <form action="registrasi/registrasi.php" method="post">
+            <button name="keregister" style="background-color: #582102; margin-top: 10px;margin-right: 20px; font-weight:bolder;" class="tombolku btn btn-dark btn-lg active" role="button" aria-pressed="true">DAFTAR</a>
+        </form>
+        <form action="login/login.php" method="post">
+            <button name="kelogin" style="background-color: #582102; margin-top: 10px;font-weight:bolder;" class="tombolku btn btn-dark btn-lg active" role="button" aria-pressed="true">MASUK</a>
+        </form>
+     </div>
+
+<script src="javascript/bootstrap.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Text+Me+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+html,body {
+    height: 100%;
+}
+
+.container-fluid {
+    background-image: url('img/food.png');
+    height: 100%;
+}
+
+
+/* .kotak-awal {
+    background-color: white;
+    height: 560px;
+    width: 880px;
+} */
+.kotak1 {
+    background-color: #FEF3E0;
+}
+.kotak2 {
+    background-color: #e2A165;
+}
+.kotak3 {
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    /* position: relative; */
+}
+.bungkus-kotak {
+    height: 100%;
+}
+.silahkan {
+    font-family: 'Text Me One', sans-serif;
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    top:143px;
+    left: 70px;
+}
+
+.silahkan a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.bungkus-gambar-kolom3 {
+    position: relative;
+}
+.bungkus-form {
+    position: relative;
+    top: 164px;
+    left: 30px;
+}
+.bungkus-form input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    width: 347px;
+    height: 27px;
+    border: 2px solid rgb(168, 163, 138);
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.bungkus-form label {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+}
+.bungkus-form a {
+    margin-left: 3px;
+    text-decoration: none;
+    color: rgb(255, 78, 78);
+    font-family: 'Open Sans', sans-serif;
+}
+.tombol {
+    position: relative;
+    width: 100px;
+    top: 182px;
+    left: 132px;
+}
+.tombol button {
+    width: 140px;
+    border-radius: 5px;
+    background-color: black;
+    color: rgb(221, 221, 221);
+    height: 35px;
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 32px !important;
+}
+.tidak-punya-akun {
+    position: relative;
+    top: 222px;
+    left: 27px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+.tidak-punya-akun a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #38b6ff;
+}
+/* .logo {
+    width: 70px;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+} */
+.untuk-hp {
+    display: none;
+}

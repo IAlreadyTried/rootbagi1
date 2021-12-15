@@ -1,0 +1,238 @@
+@media (max-width: 2952px) {
+    .kotak-awal {
+        height: 560px;
+        width: 880px;
+    }
+    .logo {
+        width: 70px;
+        position: absolute;
+        top: 7px;
+        right: 7px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .kotak-awal {
+        height: 560px;
+        width: 880px;
+    }
+    .logo {
+        width: 70px;
+        position: absolute;
+        top: 7px;
+        right: 7px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .kotak-awal {
+        height: 560px;
+        width: 880px;
+    }
+    .logo {
+        width: 70px;
+        position: absolute;
+        top: 7px;
+        right: 7px;
+    }
+}
+
+@media (min-width: 990px) and (max-width: 1024px) {
+    /* .kotak-awal {
+        height: 394px;
+        width: 625px;
+    }
+    .logo {
+        width: 55px;
+        position: absolute;
+        top: 7px;
+        right: 7px;
+    }
+    .gambar {
+        width: 245px;
+    } */
+    .kotak-awal {
+        height: 550px;
+        width: 800px;
+    }
+    .logo {
+        width: 70px;
+        position: absolute;
+        top: 7px;
+        right: 7px;
+    }
+    .garis2 hr {
+        width: 314px !important; 
+    }
+    .garis2::before {
+        left: 312px !important; 
+    }
+    .satu {
+        left: 143px !important;
+    }
+    .rasa {
+        left: 242px !important;
+    }
+    .bungkus-form input {
+        width: 307px;
+    }
+    .gambar {
+        width: 307px !important;
+        transform-origin: 156px 155px !important;
+    }
+    .bayangan {
+        position: absolute;
+        top: 140px !important;
+        left: 78px !important;
+        width: 307px !important;
+        height: 304px !important;
+        background-color: rgba(0, 0, 0, .2) !important;
+        border-radius: 50% !important;
+    }
+    .silahkan {
+        left: 55px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+    .kotak-awal {
+        height: 550px;
+        width: 800px;
+    }
+    /*
+    .logo {
+        width: 55px;
+        position: absolute;
+        top: 7px;
+        right: 7px;
+    }
+    .gambar {
+        width: 245px;
+    } */
+    .logo {
+        width: 70px;
+        position: absolute;
+        top: 7px;
+        right: 7px;
+    }
+    .garis2 hr {
+        width: 280px !important; 
+    }
+    .garis2::before {
+        left: 277px !important; 
+    }
+    .bungkus-form input {
+        width: 274px;
+    }
+    .gambar {
+        width: 307px !important;
+        transform-origin: 156px 155px !important;
+    }
+    .bayangan {
+        position: absolute;
+        top: 140px !important;
+        left: 55px !important;
+        width: 307px !important;
+        height: 302px !important;
+        background-color: rgba(0, 0, 0, .2) !important;
+        border-radius: 50% !important;
+    }
+    .silahkan {
+        font-size: 20px !important;
+        left: 50px;
+    }
+
+    .satu {
+        left: 120px !important;
+    }
+    .rasa {
+        left: 219px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .kotak-awal {
+        /* height: 336px; */
+        height: 700px;
+        width: 528px;
+    }
+    .logo {
+        width: 45px;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+    .gambar {
+        width: 184px;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 768px) {
+    .kotak-awal {
+        height: 160px;
+        width: 280px;
+    }
+    .untuk-laptop {
+        display: none;
+    }
+    .untuk-hp {
+        display:block;
+    }
+    .kotak3 {
+        margin-top: -175px;
+        height: 500px;
+        border-radius: 10px;
+    }
+    .garis2 hr {
+        width: 223px !important;
+    }
+    .garis2::before {
+        left: 220px !important;
+    }
+    .bungkus-form input {
+        width: 223px;
+    }
+    .silahkan{
+        font-size: 17px;
+        left: 38px;
+    }
+    .pesawat {
+        left: -22px !important;
+    }
+    .tombol button {
+        width: 74px;
+        border-radius: 5px;
+        background-color: black;
+        color: rgb(221, 221, 221);
+        height: 19px;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        padding-bottom: 23px !important;
+    }
+    .tombol {
+        position: relative;
+        width: 100px;
+        top: 180px;
+        left: 103px;
+    }
+    .bungkus-form a {
+        font-size: smaller;
+    }
+
+    .bungkus-form label, .bungkus-form input {
+        font-size: smaller;
+    }
+    .bungkus-form input {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .tidak-punya-akun {
+        position: relative;
+        top: 202px;
+        left: 44px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+        font-size: 12px;
+    }
+}
+

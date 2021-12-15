@@ -1,0 +1,43 @@
+@media (min-width: 425px) and (max-width: 830px) {
+    .konten h1 {
+        font-size: 5em;
+    }   
+    .konten h3 {
+        font-size: 1rem;
+    }
+    .konten p {
+        font-size: .8rem;
+    }
+    .tombolku {
+        font-size: 1rem;
+    }
+    .container-background {
+        background-size: cover;
+        background-position-x: -200px;
+    }
+
+}
+
+@media (min-width: 425px) and (max-width: 991px) {
+    .navbar .nav-item a {
+        font-size: 1rem !important;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 450px) { 
+    .konten h1 {
+        font-size: 4em;
+    }   
+    .konten h3 {
+        font-size: .7rem;
+    }
+    .konten p {
+        font-size: .7rem;
+    }
+    .tombolku {
+        font-size: .8rem;
+    }
+    .navbar .nav-item a {
+        font-size: .7rem !important;
+    }
+}

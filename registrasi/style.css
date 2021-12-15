@@ -1,0 +1,119 @@
+body {
+    height: 100%;
+}
+
+.left, .right {
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px)
+{
+    .left, .right {height: 100vh;}
+}
+
+
+.left{
+    background-image: url(pic/Untitled\ design.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.selamat {
+    font-family: 'Georama', sans-serif;
+    font-size: 65px;
+    line-height: 50px;
+    position: relative; left: 40px; top: 70px;
+}
+
+.satu {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 10px;
+    letter-spacing: 50px;
+    line-height: 120px;
+    position: relative; left: 40px; top: 70px;
+}   
+
+.sedap {
+    font-family: 'Georama', sans-serif;
+    font-size: 50px;
+    position: relative; left: 40px; top: 70px;
+}
+
+.right{
+    position: absolute;
+}
+
+.container {
+    
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.registrasi {
+
+    position: absolute;
+    width: 850px;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column; 
+}
+
+.membuat {
+    font-family: 'Suez One', serif;
+    font-size: 50px;
+}
+
+.buat {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 25px;    
+}
+
+.input-field{
+    
+    max-width: 500px;
+    width: 350px;
+    height: 45px;
+    margin: 10px 8px;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 6px;
+
+}
+
+.input-field i {
+    text-align: center;
+    margin-left: 5px;
+    line-height: 10px;
+    font-size: 20px;
+}
+
+.input-field input{
+   
+    background:none;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tombol{
+    width: 160px;
+    margin-left: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 60px;
+    outline: none;
+    border:none;
+    border-radius: 30px;
+    font-family: 'Suez One', serif;
+    font-size: 28px;
+}
